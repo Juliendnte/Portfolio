@@ -1,0 +1,144 @@
+header{
+    background-color: #DCDCDC;
+}
+body{
+    font-family: 'Montserrat';
+}
+.logoynov{
+    width: 105px;
+    position: absolute;
+    margin : 20px 0px  21px 90px;
+}
+.separationverti1{
+	position: absolute;
+    margin-top: 0px;
+	margin-left: 240px;
+	height: 160px;
+}
+.headertext{
+    padding-top: 20px;
+    margin : 0px 0px -3px 260px;
+}
+h2{
+    font-weight: 100;
+    font-size:medium;
+    color: rgb(44, 42, 42,0.9);
+}
+nav{
+    
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 850px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
+a[href="Diplome.html"]{
+    color: white;
+}
+
+.separationhor{
+    margin-left: 0px;
+    width: 30px;
+    color: #E33F0E;
+}
+
+.container1{
+    margin: 130px 0px 0px 280px;
+    flex: 5%;
+}
+
+.container2{
+    margin: 130px 0px 0px 20px;
+    padding-right: 300px;
+    flex: 1%;
+}
+
+h3{
+    color: #E33F0E;
+}
+
+.Poste{
+    display: flex;
+}
+
+.small1{
+    color: #b6bac1;
+    margin-top: -15px;
+    font-size: 15px;
+}
+.small{
+    color: #b6bac1;
+    padding-right: 55px;
+    margin-left: -51px;
+    margin-right: -51px;
+}
+
+.BNS{
+    display: flex;
+}
+
+.container3{
+    margin: 100px 50px 0px 630px;
+}
+
+.pack{
+    display: flex;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 200px -500px -400px;
+}
+
+.imga{
+    width: 70px;
+}
+
+footer{
+    background-color: #DCDCDC;
+    margin-top: 800px;
+    padding: 0px 0px 0px 260px;
+    display: flex;
+}
+
+.txtFooter{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.logofooter{
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+address{
+    margin-top: 20px;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+span {
+    flex: 3%;
+    padding: 5px;
+}
+
+.separationverti3{
+    position: absolute;
+    margin-top: 23px;
+	margin-left: 0px;
+	height: 20px;
+    order: 1;
+}
