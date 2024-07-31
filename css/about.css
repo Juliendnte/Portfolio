@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'Bold1';
+    src: url("../font/ClearSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Light1';
+    src: url("../font/ClearSans-Light.ttf") format("truetype");
+}
+
+.intro{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Albert Sans", Light1, sans-serif;
+}
+
+.title_intro{
+    font-size: 45px;
+}
+
+.container_about{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    display:flex;
+    flex-direction: row;
+    height:42vh;
+    width:35vw;
+    background-color:white;
+    opacity:0.7;
+    justify-content: space-evenly;
+    padding: 0.4vh 1.2vw 1.2vw;
+}
+
+.border_about{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-color:black;
+    margin:auto  0;
+    height:22vh
+}
+
+.content_about{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about_down{
+    position: relative;
+    width: 100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.7vh;
+    text-transform: lowercase;
+}
+
+.about_up{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+    height:75%;
+}
+
+.title_about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:35px;
+    text-shadow: 1px  1px  1px black;
+    color:black;
+    font-family:Bold1, serif ;
+
+}
+.lien_pdf{
+    font-size:15px;
+    color:black;
+    font-family: Light1, serif;
+    width: 65%;
+    display:flex;
+    justify-content: start;
+}
+
+
+.title_about-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0  0  1px black;
+    font-size:30px;
+    color:black;
+    font-family:Bold1, serif ;
+}
+
+.title_about-3{
+    font-size:17px;
+    color:black;
+    font-family: Bold1, serif;
+    width: 50%;
+}
+
+.title_about-4{
+    font-size:14px;
+    color:black;
+    font-family: Light1, serif;
+    width: 70%;
+    display:flex;
+    justify-content: start;
+}
+
+.about_up div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:80%
+}
+
+.about_down p{
+    color:black;
+    font-size:12px;
+    font-family:Light1, serif ;
+    padding-left:1vw;
+    padding-top: 0.3vh;
+    text-shadow: 1px 0 0 black;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+
+.about{
+    display:flex;
+    flex-direction: column;
+}
+
+.container_timeline{
+    width:100vw;
+    margin-bottom: 100px;
+}
+
+.timeline ul {
+    background: #9AACB5;
+    padding: 50px 0;
+}
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+}
+
+.timeline ul li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+    z-index: 1;
+}
+
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #f45b69;
+}
+
+.timeline ul li div::before {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+    left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #f45b69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+    left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #f45b69;
+}
+
+h3 {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: Bold1, serif;
+}
+
+.timeline_p{
+    font-size:15px;
+    font-family: Light1, serif;
+}
+
+.timeline ul li::after {
+    transition: background 1s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+    background: #f45b69;
+}
+
+.timeline ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+    transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+    transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.timeline-clippy ul li::after {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+}
+
+.timeline-rhombus ul li::after {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.timeline-rhombus ul li div::before {
+    bottom: 12px;
+}
+
+.timeline-star ul li::after {
+    clip-path: polygon(
+            50% 0%,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%
+    );
+}
+
+.timeline-heptagon ul li::after {
+    clip-path: polygon(
+            50% 0%,
+            90% 20%,
+            100% 60%,
+            75% 100%,
+            25% 100%,
+            0% 60%,
+            10% 20%
+    );
+}
+
+.timeline-infinite ul li::after {
+    animation: scaleAnimation 2s infinite;
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+    50% {
+        transform: translateX(-50%) scale(1.25);
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .about_down p{
+
+        color:black;
+        font-size:10px;
+        font-family:Light1, serif ;
+        padding-left:1vw;
+        padding-top: 0.3vh;
+        text-shadow: 1px 0 0 black;
+        height:100%;
+        display:flex;
+        align-items: center;
+    }
+}

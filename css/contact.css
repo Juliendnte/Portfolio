@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Bold1';
+    src: url("../font/ClearSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Light1';
+    src: url("../font/ClearSans-Light.ttf") format("truetype");
+}
+
+.email{
+    display:flex;
+    justify-content: center;
+    margin-top:8vh
+}
+.content{
+    display:flex;
+    margin: 0  ;
+    padding: 9vh 0 0;
+    height:88vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h2{
+    text-align: center;
+    margin-bottom: 2vh;
+    color:blue;
+}
+
+li{
+    list-style-type: none;
+}
+
+.Num{
+    display:flex;
+    font-size:16px;
+    margin-top:3vh;
+    justify-content: start;
+    width: 100%;
+    color:black;
+    font-family: Light1, serif;
+}
+
+.Adresse{
+    display:flex;
+    font-size:16px;
+    margin-top:3vh;
+    font-family: Light1, serif;
+    color:black
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color:black;
+    margin-top:3vh;
+    font-size:45px;
+    font-family: Bold1,serif;
+}
+
+textarea {
+    border: none;
+    width: 25vw;
+    height: 14vh;
+    padding:10px;
+    background-color:darkseagreen;
+    border-radius:10px;
+    min-width: 400px;
+}
+
+.secondLi{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+}
+
+
+
+input {
+    border: none;
+    padding: 10px;
+    width: 18vw;
+    height: 7vh;
+    background-color:darkseagreen;
+    border-radius:10px;
+    min-width: 250px;
+}
+
+.Num li {
+   display: flex;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label{
+    margin-top:2vh;
+    margin-bottom: 2vh;
+    justify-content: center;
+}
+
+button{
+    width: 5vw;
+    border-radius: 20px;
+    margin:auto
+}

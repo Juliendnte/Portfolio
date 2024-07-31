@@ -1,61 +1,151 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset= "utf-8"/>
-		<title>Accueil</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/Accueil.css" >
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-	</head>
-	<body>
-        <header>
-            <img class="logoynov" src="image/logo-ynov-campus-300x300.png" alt="ynovcampus"/>
-            <div>
-                <hr class="separationverti1" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link href="css/Master.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="js/Index.js"></script>
+    <script defer type="text/javascript" src="js/about.js"></script>
+    <script defer type="text/javascript" src="js/project.js"></script>
+    <script defer src="js/carrousel.js"></script>
+    <script defer type="text/javascript" src="js/scroll.js"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/74fed0e2b5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/74fed0e2b5.js"></script>
+</head>
+<body>
+<header id="header">
+    <div class="name">
+        <p class="name_p">Julien DANTE</p>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#about">A Propos de moi</a>
+            </li>
+            <li class="dropdown">
+                <a href="#project">Projets</a>
+            </li>
+            <li>
+                <a href="#skill">Compétences</a>
+            </li>
+            <li>
+                <a href="#contact">Me Contacter</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="background_index">
+    <div class="content_home">
+        <p id="first_text_home">
+            Julien Dante Portfolio
+    </div>
+</div>
+<div id="particles-js"></div>
+<div class="link_about">
+    <a href="#about" class="smooth-scroll"><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+<div id="about" class="container_timeline">
+    <section class="intro">
+        <p class="title_intro">Hey, Je suis Julien &#128075; </p>
+        <div class="description">
+            <p >Bonjour, je m'appelle Julien Dante, étudiant en 2ᵉ année d'informatique à Ynov</p>
+            <p>Je suis un passionné d'informatique qui a commencé à coder en 2021 au lycée</p>
+            <p>Actuellement, je suis Ynov où j'ai eu une révélation pour ma passion du développement, de la programmation et de l'IA</p>
+        </div>
+    </section>
+    <section class="timeline">
+            <ul>
+                <li>
+                    <div>
+                        <h3>2016 – 2020</h3>
+                        <p class="timeline_p"> Collège Saint-Bruno (Marseille – 13004)</p>
+                        <p class="timeline_p"> Brevet des collèges – série générale - Mention très bien opt Latin</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>2020 – 2021</h3>
+                        <p class="timeline_p"> Seconde générale européenne opt Latin – Saint Joseph de la Madeleine (Marseille – 13004)</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>2021 – 2022</h3>
+                        <p class="timeline_p"> Première Spécialités - HGGSP/Math/NSI – Saint Joseph de la Madeleine (Marseille – 13004)</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>2022 – 2023</h3>
+                        <p class="timeline_p"> Terminale Spécialités - Math/NSI – Saint Joseph de la Madeleine (Marseille – 13004) </p>
+                        <p class="timeline_p"> Baccalauréat - série général européenne - Mention Bien </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>2023 – 2024</h3>
+                        <p class="timeline_p"> 1ière Année Bachelor1 YNOV Informatique - Aix YNOV Campus - 2 rue Le corbusier
+                            - bâtiment centraix - 13090 Aix-en-Provence </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>2024 – 2028</h3>
+                        <p class="timeline_p"> Suite à Ynov - 2 Rue de la Fourane, 13090 Aix-en-Provence </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+</div>
+<div id="project">
+    <div class="l-realise-slider-card-block">
+        <div class="card-block-wrap">
+            <img class="card a" id="first" src="img/forum.png" alt="Forum">
+            <img class="card b" id="second" src="img/boutique.png" alt="Boutique">
+            <img class="card c" id="third" src="img/groupie_tracker.png" alt="Groupie Tracker">
+            <img class="card d" id="fourth" src="img/hangman_web.png" alt="Hangman Web">
+            <img class="card e" id="fifth" src="img/infra.png" alt="Infra">
+            <img class="card f" id="sixth" src="img/java.png" alt="Java">
+
+            <div class="btn-wrap">
+                <a href="javascript:void(0);" class="btn btn-1 focus"></a>
+                <a href="javascript:void(0);" class="btn btn-2"></a>
+                <a href="javascript:void(0);" class="btn btn-3"></a>
+                <a href="javascript:void(0);" class="btn btn-4"></a>
+                <a href="javascript:void(0);" class="btn btn-5"></a>
+                <a href="javascript:void(0);" class="btn btn-6"></a>
             </div>
-            <div class="headertext">
-            <h1 class="title">CV Dante Julien</h1>
-            <h2 class="spe">B1 info</h2>
-            </div>
-            
-            <nav>
-                <a href="index.html">Accueil</a> 
-                <a href="html/Diplome.html">Diplome</a> 
-                <a href="html/Projet.html">Projet</a> 
-                <a href="html/Contact.html">Contact</a> 
-            </nav>
-        </header>
-        <main>
-            <img class="me" src="image/IMG_20231018_094254_188.jpg" alt="photo of me"/>
-            <div>
-                <hr class="separationverti2" />
-            </div>
-            <section>
-                <h3>Intro</h3>
-                <div>
-                    <hr class="separationhor" />
-                </div>
-                <p class="text">Je suis un étudiant en B1 info au campus Aix Ynov. J'ai déjà une bonne expérience en programmation vu que pendant 2 ans au lycée, j'ai étudié le Python MySQL, Css, Html, etc. </p>
-                <h3>Motivation</h3>
-                <div>
-                    <hr class="separationhor" />
-                </div>
-                <p class="text">Je suis une personne sérieuse, motivée et enthousiaste. Et un bon élément dans les projets de groupe.</p>
-            </section>
-            <a class= "boutondip" href="html/Diplome.html"><h4>Diplome</h4></a>
-        </main>
-    <footer>
-        <p class="txtFooter">&copy; 2023 by Julien DANTE. </p>
-        <span><a href="html/Contact.html"><h4>Contactez moi</h4></a></span>
-        <img class="logofooter" src="image/Discord_Logo_sans_texte.svg.webp" alt="logo discord" />
-        <a href="https://www.instagram.com/julien_dnte/">
-            <img class="logofooter" src="image/Logo-Instagram-noir-1.png.webp" alt="logo instagram" >
-        </a>
-        <div>
-            <hr class="separationverti3" />
-        </div> 
-        <address> &nbsp;julien.dante@ynov.com</address>        
-    </footer>
-	</body>
-	
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <span class="close">&times;</span>
+        <img src="" class="popup-content" id="popup-img">
+        <div id="popup-description"></div>
+    </div>
+
+</div>
+<div id="skill">
+
+</div>
+<div id="contact">
+
+</div>
+<!-- <div class="footer">
+    <div class="icones">
+        <a class="github" href="https://github.com/Juliendnte" target="_blank"> <i class="fa-brands fa-github"></i></a>
+        <a class="github" href="https://www.linkedin.com/in/julien-dante-783537260/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+    </div>
+    <div class="border">
+        <p class="nom"> Developpé par Julien Dante</p>
+    </div>
+</div>
+-->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/particle.js"></script>
+</body>
 </html>

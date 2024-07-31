@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Bold1';
+    src: url("../font/ClearSans-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Light1';
+    src: url("../font/ClearSans-Light.ttf") format("truetype");
+}
+
+.container_stage{
+    background: #bdc3c7 no-repeat center;
+    height:88vh;
+}
+
+.pdf{
+    display: flex;
+    position:relative;
+    color:black;
+    padding:2vh;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    width: 33vw;
+    font-size:60px;
+    margin-top: 2vh;
+}
+
+.container_Descri_Stage{
+    display: flex;
+    flex-direction: column;
+    height:30vh;
+    width:45vw;
+    padding:2vh;
+    position:relative;
+    left:31%;
+    top:30%;
+    opacity:0.8;
+    font-size:16px;
+    color:black;
+    font-family: Light1,serif;
+}
