@@ -2,56 +2,101 @@
     display: flex;
     flex-wrap: wrap;
     padding: 2rem 0 4rem;
+    margin: -0.75rem;
 }
 
 .container_project {
     position: relative;
-    width: 300px; /* ajustez cette valeur selon vos besoins */
+    flex: none;
+    width: 33.3333%;
+    padding: 0.75rem;
+}
+
+.container_project figure{
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .card {
-    display: block;
+    transform: scale(1);
+    transition: .25s ease-in-out;
+    height: 100%;
     width: 100%;
-    height: auto;
 }
 
 .overlay {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    z-index: 1;
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
     opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    transition: .45s ease-in-out;
 }
 
 .container_project:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: #fff;
-    font-size: 14px;
+    background-color: #141c3a;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    opacity: 1;
+    transition: .45s ease-in-out;
 }
 
-.text a {
+.overlay p {
     color: #fff;
-    text-decoration: none;
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+    line-height: 1.125;
 }
 
-.text a:hover {
-    color: #fff; /* couleur de survol du lien */
+.overlay a{
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 1.2rem;
+    font-weight: 400;
+    border-width: 2px;
+    color: #fff;
+    background-color: transparent;
+    border-color: #6E07F3;
+    border-radius: 9999px;
+    font-family: "europa", sans-serif;
+    -webkit-transition: all .2s ease-in-out;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
 }
 
-.text svg{
-    width: 33px;
+span{
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.icon{
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: calc(-0.5em - 1px);
+    height: 1.5em;
+    width: 1.5em;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.icon svg{
+    width: 58px;
+    overflow: visible;
+    box-sizing: content-box;
+    display: inline-block;
+    height: 1em;
 }
