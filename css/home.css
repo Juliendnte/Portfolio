@@ -25,27 +25,31 @@
     height: 0;
 }
 
-.link_about a {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    padding-top: 1px;
-    height: 50px;
-    line-height: 50px;
+.smooth-scroll{
+    color: #fff;
+    animation: fadeInOut 3.5s infinite;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    width: 50px;             /* Ajustez cette valeur selon vos besoins */
+    height: 50px;            /* Ajustez cette valeur selon vos besoins */
     text-align: center;
-    border-radius: 50%;
+    border-radius: 50%;      /* Pour avoir un bouton rond */
+    background-color: #2b2d30; /* Ajoutez une couleur de fond si nécessaire */
+    text-decoration: none;   /* Supprime la décoration de lien */
     transition: background-color 0.3s;
+    position: relative;
+    padding-top: 1px;
+    line-height: 50px;
     transform: translateY(-150px);
 }
 
-.link_about a:hover {
-    background-color: #1e262d;
+.smooth-scroll i {
+    font-size: 24px;
 }
 
-.link_about a{
-    font-size: 24px;
-    color: #fff;
-    animation: fadeInOut 3.5s infinite;
+.smooth-scroll:hover {
+    background-color: #1e262d;
 }
 
 
