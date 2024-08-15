@@ -8,6 +8,7 @@
     <link href="css/about.css" rel="stylesheet">
     <link href="css/project.css" rel="stylesheet">
     <link href="css/Skill.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <script type="text/javascript" src="js/Index.js"></script>
     <script defer type="text/javascript" src="js/about.js"></script>
     <script defer type="text/javascript" src="js/scroll.js"></script>
@@ -285,19 +286,29 @@
     </div>
 </div>
 <div id="contact">
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div>
+                <label for="subject">Subject :</label>
+                <input type="text" id="subject" name="suject" required>
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div id="formMessage"></div>
+    </div>
+</div>
 
-</div>
-<!-- <div class="footer">
-    <div class="icones">
-        <a class="github" href="https://github.com/Juliendnte" target="_blank"> <i class="fa-brands fa-github"></i></a>
-        <a class="github" href="https://www.linkedin.com/in/julien-dante-783537260/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
-    </div>
-    <div class="border">
-        <p class="nom"> Developpé par Julien Dante</p>
-    </div>
-</div>
--->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="js/particle.js"></script>
+<script src="js/contact.js"></script>
 </body>
 </html>

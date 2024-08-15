@@ -29,14 +29,14 @@
     color: #fff;
     animation: fadeInOut 3.5s infinite;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    align-items: center;     /* Centre verticalement */
-    width: 50px;             /* Ajustez cette valeur selon vos besoins */
-    height: 50px;            /* Ajustez cette valeur selon vos besoins */
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    border-radius: 50%;      /* Pour avoir un bouton rond */
-    background-color: #2b2d30; /* Ajoutez une couleur de fond si nécessaire */
-    text-decoration: none;   /* Supprime la décoration de lien */
+    border-radius: 50%;
+    background-color: #2b2d30;
+    text-decoration: none;
     transition: background-color 0.3s;
     position: relative;
     padding-top: 1px;
@@ -65,6 +65,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes fadeInOut {
