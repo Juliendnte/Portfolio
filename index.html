@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil</title>
+    <title>Portfolio</title>
     <link href="css/Master.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <link href="css/project.css" rel="stylesheet">
     <link href="css/Skill.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
-    <script type="text/javascript" src="js/Index.js"></script>
     <script defer type="text/javascript" src="js/about.js"></script>
     <script defer type="text/javascript" src="js/scroll.js"></script>
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/74fed0e2b5.js"></script>
@@ -290,22 +289,22 @@
         <h2>Contact Me</h2>
         <form id="contactForm">
             <div>
-                <label for="subject">Subject :</label>
-                <input type="text" id="subject" name="suject" required>
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" required maxlength="40" placeholder="Enter your name...">
             </div>
             <div>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
+                <label for="email">Your email :</label>
+                <input id="email" type="email" name="email" required placeholder="Enter your email...">
             </div>
             <div>
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" required></textarea>
+                <label for="message">Your message :</label>
+                <textarea id="message" name="message" required autocomplete="on" maxlength="1200" wrap="soft" placeholder="Enter your message..."></textarea>
             </div>
-            <button type="submit">Envoyer</button>
+            <button type="submit">Send</button>
         </form>
+
         <div id="formMessage"></div>
-    </div>
-</div>
+    </div></div>
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="js/particle.js"></script>

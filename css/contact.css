@@ -4,6 +4,8 @@
     width: 70vw;
     border-radius: 13px;
     min-width: 500px;
+    box-shadow: -10px 10px 30px 5px #fff;
+    margin-bottom: 70px;
 }
 
 .contact h2 {
@@ -19,6 +21,10 @@ form div {
 label {
     display: block;
     margin-bottom: 5px;
+}
+
+textarea{
+    height: 130px;
 }
 
 input, textarea {
