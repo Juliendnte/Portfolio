@@ -1,9 +1,10 @@
 #skill{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5rem 10rem;
+    margin: 0 10rem;
+    padding-top: 7rem;
+    gap: 60px;
 }
 
 #skill h2{
