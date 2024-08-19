@@ -87,12 +87,15 @@
 
 }
 .lien_pdf{
-    font-size:15px;
-    color:black;
-    font-family: Light1, serif;
-    width: 65%;
-    display:flex;
-    justify-content: start;
+    width: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.lien_pdf a {
+    width: 50%;
 }
 
 
