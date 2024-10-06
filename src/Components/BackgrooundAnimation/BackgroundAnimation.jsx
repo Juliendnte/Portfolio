@@ -1,5 +1,5 @@
 const BackgroundAnimation = () => (
-    <div>
+    <div className="flex w-[50vw] bg-blue-500">
         <svg className="BgAnimation__svg"
             viewBox="0 0 602 602"
             fill="none"

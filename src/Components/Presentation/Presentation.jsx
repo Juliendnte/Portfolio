@@ -21,11 +21,11 @@ const Presentation = () => (
                 </SectionText>
                 <Button onClick={(e) => {
                     e.preventDefault();
-                    window.location.href = '/files/resume.pdf';
+                    window.location.href = '/Portfolio/files/resume.pdf';
                 }}>My Resume</Button>
                 <Button onClick={(e) => {
                     e.preventDefault();
-                    window.location.href = '/files/rapport-stage-nageur.pdf';
+                    window.location.href = '/Portfolio/files/rapport-stage-nageur.pdf';
                 }}>Rapport de Stage</Button>
             </LeftSection>
         </Section>

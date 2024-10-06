@@ -45,7 +45,7 @@ export const projects = [
     {
         title: 'Forum',
         description: "Coder is a programming forum featuring numerous topics, posts, and messages, managed by admins and moderators to ensure smooth operation and community engagement.",
-        image: '/images/forum.png',
+        image: '/Portfolio/images/forum.png',
         tags: ['Node.JS', 'Wampserver', 'SQL'],
         source: 'https://github.com/Juliendnte/forum.git',
         id: 0,
@@ -53,7 +53,7 @@ export const projects = [
     {
         title: 'Boutique JS',
         description: "Horo Haven is a watch e-commerce site developed in NodeJS, EJS, and a SQL database. The project is divided into two servers: a backend server for the API and a frontend server for the user interface. " ,
-        image: '/images/boutique.png',
+        image: '/Portfolio/images/boutique.png',
         tags: ['Node.JS', 'Wampserver', 'SQL'],
         source: 'https://github.com/Juliendnte/Boutique-JS.git',
         id: 1,
@@ -61,7 +61,7 @@ export const projects = [
     {
         title: 'Groupie Tracker',
         description: "Groupie tracker is a project using the Spotify API. It's a site where I try to re-make the spotify web-app in a site with also using Google and YouTube API. ",
-        image: '/images/groupie_tracker.png',
+        image: '/Portfolio/images/groupie_tracker.png',
         tags: ['Go', 'API', "JSON"],
         source: 'https://github.com/Juliendnte/Livrables_projet_groupie_tracker.git',
         id: 2,
@@ -69,7 +69,7 @@ export const projects = [
     {
         title: 'Project Blue',
         description: "Project Blue is the 2048 game with some changes, we add 3 mode: a mode that add a chrono, another that reverse the numbers, and a last one that add randomly a element on tile",
-        image: '/images/projet-blue.png',
+        image: '/Portfolio/images/projet-blue.png',
         tags: ['HTML/CSS', 'JS'],
         source: 'https://github.com/Epikdimond-N/Projet-Blue.git',
         id: 3,

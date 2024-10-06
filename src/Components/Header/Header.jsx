@@ -4,8 +4,8 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () => (
     <Container>
         <Div1>
-            <a href="/" style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-                <img src="/logo.png" height={50} width={60} alt="logo" />
+            <a href="/Portfolio" style={{ display: 'flex', alignItems: 'center', color: "white" }}>
+                <img src="/Portfolio/logo.png" height={50} width={60} alt="logo" />
                 <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>DANTE Julien</span>
             </a>
         </Div1>
