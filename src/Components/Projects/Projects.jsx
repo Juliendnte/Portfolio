@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../style/GlobalCompone
 import { projects } from '../../constants/constant.jsx';
 
 const Projects = () => (
-    <Section id="projects">
+    <Section id="Projects">
         <SectionDivider />
         <SectionTitle main>Projects</SectionTitle>
         <GridContainer>

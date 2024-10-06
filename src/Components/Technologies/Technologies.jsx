@@ -3,7 +3,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from "./Tech
 import { Skills } from '../../constants/constant.jsx'
 
 const Technologies = () => (
-    <Section id="skills">
+    <Section id="Skills">
         <SectionDivider divider />
         <SectionTitle>Skills</SectionTitle>
         <SectionText>
