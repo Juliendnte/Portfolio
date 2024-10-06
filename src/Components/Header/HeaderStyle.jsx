@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 2rem;
+    display: flex;
+    justify-content: space-around;
     padding: 2rem 1rem 1rem;
     position: fixed;
     z-index: 99;
+    width: 100%;
     background: ${props => props.theme.colors.background1};
 
     box-shadow: -1px 29px 55px 31px rgba(15, 22, 36, 0.75);
@@ -20,6 +19,8 @@ export const Container = styled.header`
         grid-template-rows: repeat(2, 60px);
         grid-column-gap: 0.5rem;
         grid-row-gap: 0.5rem;
+        position: absolute;
+        top: 0;
     }
 `;
 export const Div1 = styled.div`
@@ -32,8 +33,8 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
-  display: flex;
+    display: flex;
+    width: 30vw;
   margin-top: 0.75em;
   justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -52,7 +53,7 @@ export const Div3 = styled.div`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavLink = styled.p`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
@@ -62,9 +63,9 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     padding: 0.5rem;
-    font-size: 1.7rem;
+    font-size: 2.3rem;
   }
 `;
 

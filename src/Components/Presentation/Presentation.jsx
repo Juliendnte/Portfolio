@@ -5,7 +5,7 @@ import { LeftSection} from './PresentationStyle.jsx';
 
 const Presentation = () => (
     <>
-        <Section row nopadding id="#About">
+        <Section row nopadding id="About">
             <LeftSection>
                 <SectionTitle main center>
                     Hey there ,

@@ -11,13 +11,13 @@ export const Section = styled.section`
     padding: 100px ;
     
     @media ${(props) => props.theme.breakpoints.md} {
-        padding: 24px 48px 0;
+        padding: 72px 48px 0;
         flex-direction: column;
     }
 
     @media ${(props) => props.theme.breakpoints.sm} {
         padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
-
+        margin-top: 150px;
         width: calc(100vw - 32px);
         flex-direction: column;
     }
