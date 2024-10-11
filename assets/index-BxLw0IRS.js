@@ -329,7 +329,9 @@ padding-bottom: 3rem;
 place-items: center;
 column-gap: 1rem;
 row-gap: 3rem;
-    width: 1000px;
+    width: 80vw;
+    max-width: 1000px;
+    min-width: 450px;
 @media ${e=>e.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
