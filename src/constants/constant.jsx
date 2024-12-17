@@ -193,19 +193,19 @@ export const base_url = import.meta.env.VITE_BASE_URL && import.meta.env.VITE_BA
 
 export const media = [
     {
-        path: base_url === 'https://juliendnte.github.io/Portfolio' ? '/images/github.webp' : '/src/assets/images/github.webp',
+        path: '/images/github.webp',
         link: 'https://github.com/Juliendnte'
     },
     {
-        path: base_url === 'https://juliendnte.github.io/Portfolio' ? '/images/linkedin.png' : '/src/assets/images/linkedin.png',
+        path: '/images/linkedin.png',
         link: 'https://www.linkedin.com/in/julien-dante-783537260/'
     },
     {
-        path: base_url === 'https://juliendnte.github.io/Portfolio' ? '/images/instagram.png' : '/src/assets/images/instagram.png',
+        path:  '/images/instagram.png',
         link: 'https://www.instagram.com/julien.dnte/'
     },
     {
-        path: base_url === 'https://juliendnte.github.io/Portfolio' ? '/images/mail.png' : '/src/assets/images/mail.png',
+        path: '/images/mail.png',
         link: 'mailto:julien.dante@ynov.com'
     }
 ]
