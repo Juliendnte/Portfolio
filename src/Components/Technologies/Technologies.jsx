@@ -1,32 +1,43 @@
-import { Section, SectionDivider, SectionText, SectionTitle, } from "../../style/GlobalComponents";
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from "./TechnologiesStyle";
-import { Skills } from '../../constants/constant.jsx'
+import {Title} from "../../style/GlobalComponents/Main.jsx";
+import {useState} from "react";
+import {skills} from "../../constants/constant.jsx";
+import {H3, IMG, ABBR, ContainerImg} from "../../style/GlobalComponents/Technologies.jsx";
+import theme from "../../style/default.jsx";
 
-const Technologies = () => (
-    <Section id="Skills">
-        <SectionDivider divider />
-        <SectionTitle>Skills</SectionTitle>
-        <SectionText>
-            I&#39;m still learning a variety of technologies as a developer.
-            I&#39;ve developed and tried multiple projects using these technologies, and I&#39;m always eager to learn more.
-        </SectionText>
-        <List>
-            {Skills.map((Skill) => (
-                <ListItem key={Skill.slug}>
-                    <picture>
-                        <Skill.Component size="3rem" />
-                    </picture>
-                    <ListContainer>
-                        <ListTitle>{Skill.title}</ListTitle>
-                        <ListParagraph>
-                            <Skill.Description />
-                        </ListParagraph>
-                    </ListContainer>
-                </ListItem>
-            ))}
-        </List>
-        <SectionDivider colorAlt />
-    </Section>
-);
+
+const Technologies = () => {
+    const [selectedSkillsIndex, setSelectedSkillsIndex] = useState(0);
+
+    const handleSkillsClick = (index) => {
+        setSelectedSkillsIndex(index);
+    }
+
+    const selectedSkills = skills[selectedSkillsIndex];
+
+    return (
+        <div id="Skills" className="w-full pt-80 h-max">
+            <Title className="inline-flex pb-10 ">
+                <h2 className="text-7xl w-fit">Skills</h2>
+            </Title>
+            <div className="flex flex-col items-center">
+                <div className="flex mt-32">
+                    {skills.map((skill, index) => (
+                        <div key={skill.title} className="flex flex-col gap-10">
+                            <H3 style={{backgroundColor: selectedSkills.title === skill.title ? theme.colors.background2 :theme.colors.background1}}
+                                onClick={() => handleSkillsClick(index)}>{skill.title}</H3>
+                        </div>
+                    ))}
+                </div>
+                <ContainerImg className="flex gap-10 mt-36 justify-center">
+                    {selectedSkills.description.map((skill) => (
+                        <ABBR key={skill.name} className="flex flex-col gap-10">
+                            <IMG src={skill.path} alt={"skill " + skill.name}/>
+                        </ABBR>
+                    ))}
+                </ContainerImg>
+            </div>
+        </div>
+    );
+};
 
 export default Technologies;

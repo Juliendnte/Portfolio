@@ -1,25 +1,37 @@
-
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyle';
-import { Section, SectionDivider, SectionTitle } from '../../style/GlobalComponents';
-import { projects } from '../../constants/constant.jsx';
+import {
+    BlogCard,
+    CardInfo,
+    ExternalLinks,
+    GridContainer,
+    HeaderThree,
+    Hr,
+    Tag,
+    TagList,
+    TitleContent,
+    UtilityList,
+    Img
+} from '../../style/GlobalComponents/Projects.jsx';
+import {projects} from '../../constants/constant.jsx';
+import {Title} from "../../style/GlobalComponents/Main.jsx";
 
 const Projects = () => (
-    <Section id="Projects">
-        <SectionDivider />
-        <SectionTitle main>Projects</SectionTitle>
+    <div id="Projects" className="w-full pt-80 h-max flex justify-center relative">
+        <Title absolute className="inline-flex">
+            <h2 className="text-7xl w-fit mt-36">Projects</h2>
+        </Title>
         <GridContainer>
             {projects.map((p, i) => {
                 return (
                     <BlogCard key={i}>
-                        <Img src={p.image} />
+                        <Img src={p.image}/>
 
                         <HeaderThree title={p.title}>{p.title}</HeaderThree>
-                        <Hr />
+                        <Hr/>
 
                         <CardInfo className="card-info">{p.description}</CardInfo>
                         <div>
                             <TitleContent>Tech Stack</TitleContent>
-                            <Hr />
+                            <Hr/>
                             <TagList>
                                 {p.tags.map((t, i) => {
                                     return <Tag key={i}>{t}</Tag>;
@@ -28,12 +40,15 @@ const Projects = () => (
                         </div>
                         <UtilityList>
                             <ExternalLinks href={p.source} target='_blank'>Source Code</ExternalLinks>
+                            {p.website && (
+                                <ExternalLinks href={p.website} target='_blank'>Live Demo</ExternalLinks>
+                            )}
                         </UtilityList>
                     </BlogCard>
                 );
             })}
         </GridContainer>
-    </Section>
+    </div>
 );
 
 export default Projects;

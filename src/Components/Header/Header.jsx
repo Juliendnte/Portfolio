@@ -1,42 +1,23 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle';
+import {Container, Ul} from '../../style/GlobalComponents/Header.jsx';
+import Time from "../../style/GlobalComponents/Time.jsx";
 
 const Header = () => (
-    <Container>
-        <Div1>
-            <a href="/Portfolio" style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-                <img src="/Portfolio/logo.png" height={50} width={60} alt="logo" />
-                <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>DANTE Julien</span>
-            </a>
-        </Div1>
-        <Div2>
-            <li>
-                <a href="#About" style={{color: 'white'}}>
-                    <NavLink>About</NavLink>
-                </a>
-            </li>
-            <li>
-                <a href="#Projects" style={{color: 'white'}}>
-                    <NavLink>Projects</NavLink>
-                </a>
-            </li>
-            <li>
-                <a href="#Skills" style={{color: 'white'}}>
-                    <NavLink>Skills</NavLink>
-                </a>
-            </li>
-        </Div2>
-        <Div3>
-            <SocialIcons href="https://github.com/Juliendnte" target="_blank" rel="noopener noreferrer">
-                <AiFillGithub size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.linkedin.com/in/julien-dante-783537260/" target="_blank" rel="noopener noreferrer">
-                <AiFillLinkedin size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.instagram.com/julien.dnte/" target="_blank" rel="noopener noreferrer">
-                <AiFillInstagram size="3rem" />
-            </SocialIcons>
-        </Div3>
+    <Container
+        className="nav w-full px-6 lg:px-60 text-sm font-medium text-shadow text-white fixed h-28 bg-gradient-to-b to-transparent backdrop-blur-lg flex items-center">
+        <div className=" relative flex items-center justify-between tracking-[-2%] text-2xl w-full">
+            <h1 className="font-medium leading-[9.52px] uppercase"><a href="/">Julien dante</a></h1>
+            <nav>
+                <Ul className="text-white flex p-4 gap-1.5 bg-hash rounded-[100px] text-xl uppercase w-max mx-auto tracking-[-2%] leading-[9.52px] items-center">
+                    <li className="backdrop: px-3 py-2"><a className="cursor-none" href="#Experience">Experience</a>
+                    </li>
+                    <li className="backdrop: px-3 py-2"><a className="cursor-none" href="#Skills">Skills</a>
+                    </li>
+                    <li className=" px-3 py-2"><a className="cursor-none" href="#Projects">Projects</a></li>
+                    <li className="px-3 py-2"><a className="cursor-none" href="#Contact">Contact</a></li>
+                </Ul>
+            </nav>
+            <Time className=" z-20 font-medium leading-[9.52px] "></Time>
+        </div>
     </Container>
 );
 

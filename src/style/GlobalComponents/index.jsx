@@ -1,26 +1,13 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
+    background-color: ${(props) => props.colorAlt ? props.theme.colors.background2 : props.theme.colors.background1};
     display: ${(props) => props.grid ? "grid" : "flex"};
     flex-direction: ${(props) => props.row ? "row" : "column"};
-    margin: 0 auto;
+    padding: ${(props) => props.noPadding ? "0" : "1rem 4rem"};
     box-sizing: content-box;
     position: relative;
     overflow: hidden;
-    grid-template-columns: 1fr 1fr;
-    padding: 100px ;
-    
-    @media ${(props) => props.theme.breakpoints.md} {
-        padding: 72px 48px 0;
-        flex-direction: column;
-    }
-
-    @media ${(props) => props.theme.breakpoints.sm} {
-        padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
-        margin-top: 150px;
-        width: calc(100vw - 32px);
-        flex-direction: column;
-    }
 `
 
 export const SectionTitle = styled.h2`
@@ -29,9 +16,10 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '67px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: ${props => props.theme.colors.title};
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
@@ -51,6 +39,10 @@ export const SectionTitle = styled.h2`
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
     max-width: 100%;
   }
+    &::selection {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), -1px -1px 2px rgba(0, 0, 0, 0.2);
+        background-color: transparent;
+    }
 `
 
 export const SectionText = styled.p`
@@ -175,4 +167,9 @@ export const ButtonFront = styled.button`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 14px;
   }
-`
+`;
+
+export const H3 = styled.h3`
+    font-size: 25px;
+    line-height: 2.25rem/* 36px */;
+`;

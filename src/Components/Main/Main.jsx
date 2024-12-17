@@ -1,20 +1,26 @@
-import BgAnimation from '../BackgrooundAnimation/BackgroundAnimation';
-import Presentation from '../Presentation/Presentation';
-import { Section } from '../../style/GlobalComponents';
-import Projects from "../Projects/Projects";
+import {ContainerMain} from "../../style/GlobalComponents/Main.jsx";
+import Presentation from "../Presentation/Presentation.jsx";
+import {Section} from "../../style/GlobalComponents/index.jsx";
+import BgAnimation from "../BackgrooundAnimation/BackgroundAnimation.jsx";
+import Experience from "../Experience/Experience.jsx";
 import Technologies from "../Technologies/Technologies.jsx";
-import {Contenu} from './MainStyle';
+import Contact from "../Contact/Contact.jsx";
+import Footer from "../Footer/Footer.jsx";
+import Projects from "../Projects/Projects.jsx";
 
 const Home = () => {
     return (
-        <Contenu>
-            <Section grid>
-                <Presentation />
-                <BgAnimation />
+        <ContainerMain className="flex flex-col items-center">
+            <Section colorAlt flex row noPadding className="w-full mt-24 items-center place-content-around">
+                <Presentation/>
+                <BgAnimation/>
             </Section>
-            <Projects/>
+            <Experience/>
             <Technologies/>
-        </Contenu>
+            <Projects/>
+            <Contact/>
+            <Footer/>
+        </ContainerMain>
     );
 };
 
