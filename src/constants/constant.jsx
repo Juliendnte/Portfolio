@@ -206,4 +206,6 @@ export const media = [
     }
 ]
 
-export const base_url = import.meta.env.BASE_URL ?? 'https://juliendnte.github.io/Portfolio'
+export const base_url = import.meta.env.VITE_BASE_URL && import.meta.env.VITE_BASE_URL.trim() !== ''
+    ? import.meta.env.VITE_BASE_URL
+    : 'https://juliendnte.github.io/Portfolio';
