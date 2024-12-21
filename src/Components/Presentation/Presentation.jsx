@@ -4,7 +4,7 @@ import { LeftSection} from '../../style/GlobalComponents/Gradient.jsx';
 
 const Presentation = () => (
     <>
-        <Section colorAlt className="w-1/2" row nopadding id="About">
+        <Section colorAlt className="w-1/2" row nopadding id="About" nothidden>
             <LeftSection >
                 <SectionTitle main className="flex gap-1">
                     Hey there ,

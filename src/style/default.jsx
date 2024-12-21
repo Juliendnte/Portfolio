@@ -23,5 +23,7 @@ export default {
         md: 'screen and (max-width: 768px)', // Petites tablettes ou tablettes standard en mode portrait
         lg: 'screen and (max-width: 1024px)', // Grandes tablettes en mode paysage, petites tablettes en mode portrait
         xl: 'screen and (max-width: 1280px)', // Grandes tablettes en mode paysage, petits ordinateurs portables
+        xlmaispastrop: 'screen and (max-width: 1430px)',
+        xxl: 'screen and (max-width: 1740px)',
     }
 }

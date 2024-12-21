@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const ContainerContact = styled.a`
-    font-size: 100px;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
     margin: 300px;
     border-left: 15px solid ${p => p.theme.colors.background2};
     border-right: 15px solid ${p => p.theme.colors.background2};
@@ -14,8 +16,11 @@ export const ContainerContact = styled.a`
         background-color: ${props => props.theme.colors.background2};
     }
     
-    @media ${(props) => props.theme.breakpoints.xl} {
+    @media ${(props) => props.theme.breakpoints.xxl } {
+        font-size: 6rem;
+        width: 70%;
+    } 
+    @media ${(props) => props.theme.breakpoints.xl } {
         width: 100%;
-        font-size: 9rem;
     }
 `

@@ -7,10 +7,14 @@ export const Section = styled.section`
     padding: ${(props) => props.noPadding ? "0" : "1rem 4rem"};
     box-sizing: content-box;
     position: relative;
-    overflow: hidden;
+    overflow: ${(props) => props.nothidden ? "visible" : "hidden"};
     
     @media ${(props) => props.theme.breakpoints.xl} {
         flex-direction: ${(props) => props.columnMedia ? "column" : "row"};
+        width: 95%;
+    }
+    
+    @media ${(props) => props.theme.breakpoints.xlmaispastrop} {
         width: 95%;
     }
 `
@@ -70,6 +74,10 @@ export const SectionText = styled.p`
     line-height: 24px;
     padding-bottom: 16px;
   }
+    @media ${(props) => props.theme.breakpoints.xlmaispastrop} {
+        font-size: 14px;
+        line-height: 20px;
+    }
 `
 
 export const ButtonBack = styled.div`
