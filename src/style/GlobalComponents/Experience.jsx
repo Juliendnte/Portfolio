@@ -1,4 +1,4 @@
-import styled, {keyframes} from 'styled-components';
+import styled from 'styled-components';
 
 export const ButtonsExperience = styled.div`
     background-color: ${props => props.theme.colors.background1};
@@ -29,9 +29,15 @@ export const ExperienceButton = styled.div`
 export const TitleContent = styled.div`
     font-size: 3.5rem;
     margin: 10px 0 20px 40px;
+    @media ${(props) => props.theme.breakpoints.xl} {
+        font-size: 2.5rem;
+    }
 `;
 
 export const Description = styled.div`
    font-size: 2rem;
     margin: 10px 40px;
+    @media ${(props) => props.theme.breakpoints.xl} {
+        font-size: 1.3rem;
+    }
 `;

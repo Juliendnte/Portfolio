@@ -18,10 +18,10 @@ export default {
     },
     // Breakpoints for responsive design
     breakpoints: {
-        xs: 'screen and (max-width: 450px)',
-        sm: 'screen and (max-width: 640px)',
-        md: 'screen and (max-width: 768px)',
-        lg: 'screen and (max-width: 1024px)',
-        xl: 'screen and (max-width: 1280px)'
-    },
+        xs: 'screen and (max-width: 450px)', // Smartphones très petits ou compacts
+        sm: 'screen and (max-width: 640px)', // Smartphones standards
+        md: 'screen and (max-width: 768px)', // Petites tablettes ou tablettes standard en mode portrait
+        lg: 'screen and (max-width: 1024px)', // Grandes tablettes en mode paysage, petites tablettes en mode portrait
+        xl: 'screen and (max-width: 1280px)', // Grandes tablettes en mode paysage, petits ordinateurs portables
+    }
 }

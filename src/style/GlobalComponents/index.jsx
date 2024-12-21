@@ -8,6 +8,11 @@ export const Section = styled.section`
     box-sizing: content-box;
     position: relative;
     overflow: hidden;
+    
+    @media ${(props) => props.theme.breakpoints.xl} {
+        flex-direction: ${(props) => props.columnMedia ? "column" : "row"};
+        width: 95%;
+    }
 `
 
 export const SectionTitle = styled.h2`

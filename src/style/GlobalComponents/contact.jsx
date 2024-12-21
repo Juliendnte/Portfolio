@@ -13,4 +13,9 @@ export const ContainerContact = styled.a`
     &:hover {
         background-color: ${props => props.theme.colors.background2};
     }
+    
+    @media ${(props) => props.theme.breakpoints.xl} {
+        width: 100%;
+        font-size: 9rem;
+    }
 `

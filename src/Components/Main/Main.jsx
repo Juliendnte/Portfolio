@@ -11,7 +11,7 @@ import Projects from "../Projects/Projects.jsx";
 const Home = () => {
     return (
         <ContainerMain className="flex flex-col items-center">
-            <Section colorAlt flex row noPadding className="w-full mt-24 items-center place-content-around">
+            <Section colorAlt flex row noPadding columnMedia className="w-full mt-24 items-center place-content-around">
                 <Presentation/>
                 <BgAnimation/>
             </Section>
