@@ -14,7 +14,7 @@ const Presentation = () => (
                     </svg>
                 </SectionTitle>
                 <SectionText>
-                    I&#39;m Dante Julien a backend developer from Aix in France. But I&#39;m also a life guard, a student, a sportif and also a big eater.<br/>
+                    I&#39;m Dante Julien a backend developer from Aix-en-Provence in France. But I&#39;m also a life guard, a student, and a sportif.<br/>
                     I&#39;m someone in love with programing and technology. I&#39;m always looking for new challenges and new things to learn.<br/>
                     Right now I&#39;m looking for a apprenticeship in the field of backend development or data engineering
                 </SectionText>

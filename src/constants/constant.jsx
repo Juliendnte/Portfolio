@@ -2,23 +2,16 @@ export const projects = [{
     title: 'Forum',
     description: "Coder is a programming forum featuring numerous topics, posts, and messages, managed by admins and moderators to ensure smooth operation and community engagement.",
     image: '/Portfolio/images/forum.png',
-    tags: ['Node.JS', 'Wampserver', 'SQL'],
+    tags: ['Node.JS', 'SQL'],
     source: 'https://github.com/Juliendnte/forum.git',
     id: 0,
 }, {
     title: 'Boutique JS',
     description: "Horo Haven is a watch e-commerce site developed in NodeJS, EJS, and a SQL database. The project is divided into two servers: a backend server for the API and a frontend server for the user interface. ",
     image: '/Portfolio/images/boutique.png',
-    tags: ['Node.JS', 'Wampserver', 'SQL'],
+    tags: ['Node.JS', 'SQL'],
     source: 'https://github.com/Juliendnte/Boutique-JS.git',
     id: 1,
-}, {
-    title: 'Groupie Tracker',
-    description: "Groupie tracker is a project using the Spotify API. It's a site where I try to re-make the spotify web-app in a site with also using Google and YouTube API. ",
-    image: '/Portfolio/images/groupie_tracker.png',
-    tags: ['Go', 'API', "JSON"],
-    source: 'https://github.com/Juliendnte/Livrables_projet_groupie_tracker.git',
-    id: 2,
 }, {
     title: 'Project Blue',
     description: "Project Blue is the 2048 game with some changes, we add 3 mode: a mode that add a chrono, another that reverse the numbers, and a last one that add randomly a element on tile",
@@ -26,8 +19,15 @@ export const projects = [{
     tags: ['HTML/CSS', 'JS'],
     source: 'https://github.com/Epikdimond-N/Projet-Blue.git',
     website: 'https://projet-blue-2048.kantin-fagniart.fr/',
+    id: 2,
+}, {
+    title: 'Groupie Tracker',
+    description: "Groupie tracker is a project using the Spotify API. It's a site where I try to re-make the spotify web-app in a site with also using Google and YouTube API. ",
+    image: '/Portfolio/images/groupie_tracker.png',
+    tags: ['Go', 'API'],
+    source: 'https://github.com/Juliendnte/Livrables_projet_groupie_tracker.git',
     id: 3,
-}];
+},];
 
 
 export const experience = [
@@ -36,9 +36,9 @@ export const experience = [
         date: "2020-2023",
         description: `
       <div>
-        I studied at the High School of Saint Joseph in Marseille. I got my European baccalaureate in 2023.<br/>
-        I learned a lot, especially in informatics and mathematics, where I grasped the basics of programming.<br/>
-        The languages I learned were Python, HTML, CSS, and SQL.
+        I studied at Saint Joseph High School in Marseille, where I graduated with a European Baccalaureate in 2023.<br/>
+        During my time there, I developed a strong interest in informatics and mathematics, which allowed me to grasp the fundamentals of programming.<br/>
+        I also acquired hands-on experience with several programming languages, including Python, HTML, CSS, and SQL.
       </div>`,
     },
     {
@@ -46,7 +46,11 @@ export const experience = [
         date: "2023-2028",
         description: `
       <div>
-        I am currently studying at Aix Ynov Campus, specializing in software development and data science.
+        I am currently studying at Aix Ynov Campus, where I focus on backend development and data science.<br/>
+        During my time here, I’ve worked on different projects that helped me improve my programming skills and understand how important informatics is in solving real-world problems.<br/>
+        I’ve learned a lot about building and managing infrastructure, creating software, and I’m also getting better in fields like machine learning and data science.<br/>
+        Every day, I keep discovering new tools and techniques that make me grow both as a developer and as a student.
+
       </div>`,
     },
     {
@@ -54,7 +58,9 @@ export const experience = [
         date: "2023-2024",
         description: `
       <div>
-        I worked as a lifeguard in Marseille with the Grand Bleu association, ensuring the safety of children and adults in the pool.
+        I worked as a lifeguard in Marseille with the Grand Bleu association, where I was responsible for ensuring the safety of children in the pool and sometimes in the beach.<br/>
+        This role, which I took on during vacations to earn money, taught me valuable lessons about responsibility, discipline, and teamwork.<br/>
+        This experience helped me grow in maturity and gave me a clear understanding of what it means to have a job and take on real responsibilities.
       </div>`,
     },
     {
@@ -62,8 +68,9 @@ export const experience = [
         date: "2024-2025",
         description: `
       <div>
-        I am interning at Vimtails, an events' application. I am responsible for the development of the api of the website and application.<br/>
-        My main tasks are to develop the authentication, and articles system, for members and admin.
+        I am currently interning at Vimtails, a company specializing in event applications. My responsibilities include developing the website's API, the gateway API, and implementing the payment feature.<br/>
+        One of my primary focuses is on building robust authentication and article management systems for both members and administrators.<br/>
+        Being part of the Vimtails team has been a great opportunity for growth, as I continue to learn new things every day while collaborating on impactful projects.
       </div>`,
     },
 ];
@@ -201,7 +208,7 @@ export const media = [
         link: 'https://www.linkedin.com/in/julien-dante-783537260/'
     },
     {
-        path:  '/images/instagram.png',
+        path: '/images/instagram.png',
         link: 'https://www.instagram.com/julien.dnte/'
     },
     {

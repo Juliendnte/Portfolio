@@ -11,11 +11,11 @@ import {
     UtilityList,
     Img
 } from '../../style/GlobalComponents/Projects.jsx';
-import {projects} from '../../constants/constant.jsx';
+import {base_url, projects} from '../../constants/constant.jsx';
 import {Title} from "../../style/GlobalComponents/Main.jsx";
 
 const Projects = () => (
-    <div id="Projects" className="w-full pt-80 h-max flex justify-center relative">
+    <div id="Projects" className="w-full pt-80 h-max flex justify-center relative mt-44">
         <Title absolute className="inline-flex">
             <h2 className="text-7xl w-fit mt-36">Projects</h2>
         </Title>
@@ -30,7 +30,7 @@ const Projects = () => (
 
                         <CardInfo className="card-info">{p.description}</CardInfo>
                         <div>
-                            <TitleContent>Tech Stack</TitleContent>
+                            <TitleContent>Stacks</TitleContent>
                             <Hr/>
                             <TagList>
                                 {p.tags.map((t, i) => {
@@ -39,9 +39,11 @@ const Projects = () => (
                             </TagList>
                         </div>
                         <UtilityList>
-                            <ExternalLinks href={p.source} target='_blank'>Source Code</ExternalLinks>
+                            <ExternalLinks href={p.source} target='_blank'><img width='35px' src={base_url + '/images/github.webp'} alt='source code'/></ExternalLinks>
                             {p.website && (
-                                <ExternalLinks href={p.website} target='_blank'>Live Demo</ExternalLinks>
+                                <ExternalLinks href={p.website} target='_blank'><img width='35px'
+                                                                                     src={base_url + '/images/website.png'}
+                                                                                     alt='demo'/></ExternalLinks>
                             )}
                         </UtilityList>
                     </BlogCard>
