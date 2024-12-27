@@ -37,7 +37,7 @@ export const TitleContent = styled.div`
 export const Description = styled.div`
    font-size: 2rem;
     margin: 10px 40px;
-    @media ${(props) => props.theme.breakpoints.xl} {
+    @media ${(props) => props.theme.breakpoints.xxl} {
         font-size: 1.3rem;
     }
 `;

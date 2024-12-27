@@ -74,9 +74,9 @@ export const SectionText = styled.p`
     line-height: 24px;
     padding-bottom: 16px;
   }
-    @media ${(props) => props.theme.breakpoints.xlmaispastrop} {
-        font-size: 14px;
-        line-height: 20px;
+    @media ${(props) => props.theme.breakpoints.xl} {
+        font-size: 34px;
+        line-height: 34px;
     }
 `
 

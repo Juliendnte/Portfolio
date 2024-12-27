@@ -1,8 +1,12 @@
 import styled, {keyframes} from "styled-components";
 
 export const ContainerMain = styled.main`
-    width: 70vw; 
+    width: 70vw;
     margin-top: 90px;
+
+    @media ${(props) => props.theme.breakpoints.xl   } {
+        width: 90vw;
+    }
 `;
 
 const gradientAnimation = keyframes`

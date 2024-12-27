@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerContact = styled.a`
     font-size: 8rem;
     display: flex;
+    width: 70%;
     justify-content: center;
     margin: 300px;
     border-left: 15px solid ${p => p.theme.colors.background2};
@@ -18,9 +19,5 @@ export const ContainerContact = styled.a`
     
     @media ${(props) => props.theme.breakpoints.xxl } {
         font-size: 6rem;
-        width: 70%;
     } 
-    @media ${(props) => props.theme.breakpoints.xl } {
-        width: 100%;
-    }
 `
