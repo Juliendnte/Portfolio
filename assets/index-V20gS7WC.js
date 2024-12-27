@@ -48,8 +48,12 @@ Error generating stack: `+h.message+`
     font-family: ${e=>e.theme.fonts.header};
     background-color: ${e=>e.theme.colors.background2};
 `,Time=()=>{const[e,a]=reactExports.useState("");return reactExports.useEffect(()=>{const o=()=>{const d=new Date().toLocaleString("en-US",{timeZone:"Europe/Paris"}),h=new Date(d),st=h.getHours(),xt=h.getMinutes().toString().padStart(2,"0"),$t=h.getSeconds().toString().padStart(2,"0");a(`France (${st%12||12}:${xt}:${$t} ${st>=12?"PM":"AM"})`)};o();const c=setInterval(o,1e3);return()=>clearInterval(c)},[]),jsxRuntimeExports.jsx("h1",{children:e})},Header=()=>jsxRuntimeExports.jsx(Container,{className:"nav w-full px-6 lg:px-60 text-sm font-medium text-shadow text-white fixed h-28 bg-gradient-to-b to-transparent backdrop-blur-lg flex items-center",children:jsxRuntimeExports.jsxs("div",{className:" relative flex items-center justify-between tracking-[-2%] text-2xl w-full",children:[jsxRuntimeExports.jsx("h1",{className:"font-medium leading-[9.52px] uppercase",children:jsxRuntimeExports.jsx("a",{href:"/Portfolio",children:"Julien dante"})}),jsxRuntimeExports.jsx("nav",{children:jsxRuntimeExports.jsxs(Ul,{className:"text-white flex p-4 gap-1.5 bg-hash rounded-[100px] text-xl uppercase w-max mx-auto tracking-[-2%] leading-[9.52px] items-center",children:[jsxRuntimeExports.jsx("li",{className:"backdrop: px-3 py-2",children:jsxRuntimeExports.jsx("a",{className:"cursor-none",href:"#Experience",children:"Experience"})}),jsxRuntimeExports.jsx("li",{className:"backdrop: px-3 py-2",children:jsxRuntimeExports.jsx("a",{className:"cursor-none",href:"#Skills",children:"Skills"})}),jsxRuntimeExports.jsx("li",{className:" px-3 py-2",children:jsxRuntimeExports.jsx("a",{className:"cursor-none",href:"#Projects",children:"Projects"})}),jsxRuntimeExports.jsx("li",{className:"px-3 py-2",children:jsxRuntimeExports.jsx("a",{className:"cursor-none",href:"#Contact",children:"Contact"})})]})}),jsxRuntimeExports.jsx(Time,{className:" z-20 font-medium leading-[9.52px] "})]})}),ContainerMain=dt.main`
-    width: 70vw; 
+    width: 70vw;
     margin-top: 90px;
+
+    @media ${e=>e.theme.breakpoints.xl} {
+        width: 90vw;
+    }
 `,gradientAnimation$1=mt`
     0% {
         background-position: 0 0;
@@ -147,9 +151,9 @@ Error generating stack: `+h.message+`
     line-height: 24px;
     padding-bottom: 16px;
   }
-    @media ${e=>e.theme.breakpoints.xlmaispastrop} {
-        font-size: 14px;
-        line-height: 20px;
+    @media ${e=>e.theme.breakpoints.xl} {
+        font-size: 34px;
+        line-height: 34px;
     }
 `;dt.div`
   width: ${({alt:e})=>e?"150px":"262px"};
@@ -322,7 +326,7 @@ Error generating stack: `+h.message+`
 `,Description=dt.div`
    font-size: 2rem;
     margin: 10px 40px;
-    @media ${e=>e.theme.breakpoints.xl} {
+    @media ${e=>e.theme.breakpoints.xxl} {
         font-size: 1.3rem;
     }
 `,Experience=()=>{const[e,a]=reactExports.useState(0),o=d=>{a(d)},c=experience[e];return jsxRuntimeExports.jsxs("div",{id:"Experience",className:"w-full pt-80 h-max ",children:[jsxRuntimeExports.jsx(Title,{className:"inline-flex pb-10 ",children:jsxRuntimeExports.jsx("h2",{className:"text-7xl w-fit",children:"Experience"})}),jsxRuntimeExports.jsxs(Section,{flex:!0,row:!0,noPadding:!0,className:"w-full mt-24 items-center",children:[jsxRuntimeExports.jsx(ButtonsExperience,{className:"flex flex-col gap-10 ",children:experience.map((d,h)=>jsxRuntimeExports.jsx(ExperienceButton,{selected:h===e,children:jsxRuntimeExports.jsx(H3$1,{onClick:()=>o(h),children:d.title})},d.title))}),jsxRuntimeExports.jsxs(Detail,{className:"w-8/12 ",children:[jsxRuntimeExports.jsx("div",{children:jsxRuntimeExports.jsxs(TitleContent$1,{children:[c.title," - ",c.date]})}),jsxRuntimeExports.jsx(Description,{dangerouslySetInnerHTML:{__html:c.description||"<p>No description available</p>"}})]})]})]})},IMG=dt.img`
@@ -370,6 +374,7 @@ Error generating stack: `+h.message+`
 `,theme={fonts:{title:"Monument Extended, Open Sans, sans-serif",main:"Monument Extended, Open Sans, sans-serif",header:"PP Neue Montreal, sans-serif"},colors:{primary1:"hsl(204,23.8%,95.9%)",background1:"#0B0B0B",border:"linear-gradient(180deg, rgba(69,20,125,1) 0%, rgba(248,78,182,1) 50%, rgba(69,20,125,1) 100%);",borderLeft:"linear-gradient(90deg, rgba(69,20,125,1) 0%, rgba(248,78,182,1) 50%, rgba(69,20,125,1) 100%);",title:"linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%)",button:"hsl(205.1,100%,36.1%)",background2:"#18181B",link:"#18C5DD"},breakpoints:{xs:"screen and (max-width: 450px)",sm:"screen and (max-width: 640px)",md:"screen and (max-width: 768px)",lg:"screen and (max-width: 1024px)",xl:"screen and (max-width: 1280px)",xlmaispastrop:"screen and (max-width: 1430px)",xxl:"screen and (max-width: 1740px)"}},Technologies=()=>{const[e,a]=reactExports.useState(0),o=d=>{a(d)},c=skills[e];return jsxRuntimeExports.jsxs("div",{id:"Skills",className:"w-full pt-80 h-max",children:[jsxRuntimeExports.jsx(Title,{className:"inline-flex pb-10 ",children:jsxRuntimeExports.jsx("h2",{className:"text-7xl w-fit",children:"Skills"})}),jsxRuntimeExports.jsxs("div",{className:"flex flex-col items-center",children:[jsxRuntimeExports.jsx("div",{className:"flex mt-32",children:skills.map((d,h)=>jsxRuntimeExports.jsx("div",{className:"flex flex-col gap-10",children:jsxRuntimeExports.jsx(H3,{style:{backgroundColor:c.title===d.title?theme.colors.background2:theme.colors.background1},onClick:()=>o(h),children:d.title})},d.title))}),jsxRuntimeExports.jsx(ContainerImg,{className:"flex gap-10 mt-36 justify-center",children:c.description.map(d=>jsxRuntimeExports.jsx(ABBR,{className:"flex flex-col gap-10",children:jsxRuntimeExports.jsx(IMG,{src:d.path,alt:"skill "+d.name})},d.name))})]})]})},ContainerContact=dt.a`
     font-size: 8rem;
     display: flex;
+    width: 70%;
     justify-content: center;
     margin: 300px;
     border-left: 15px solid ${e=>e.theme.colors.background2};
@@ -385,11 +390,7 @@ Error generating stack: `+h.message+`
     
     @media ${e=>e.theme.breakpoints.xxl} {
         font-size: 6rem;
-        width: 70%;
     } 
-    @media ${e=>e.theme.breakpoints.xl} {
-        width: 100%;
-    }
 `,Contact=()=>jsxRuntimeExports.jsx(ContainerContact,{href:"mailto:julien.dante@ynov.com",id:"Contact",children:jsxRuntimeExports.jsx("p",{children:"Contact Me"})}),FooterContainer=dt.footer`
     border-top: 4px dotted ${e=>e.theme.colors.background2};
     width: 100%;
