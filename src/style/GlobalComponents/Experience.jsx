@@ -13,6 +13,9 @@ export const Detail = styled.div`
     padding: 20px 20px 50px;
     width: 5000px;
     height: 28rem;
+    @media ${(props) => props.theme.breakpoints.sm} {
+        padding: 20px 0 50px;
+    }
 `;
 
 export const ExperienceButton = styled.div`
@@ -32,12 +35,31 @@ export const TitleContent = styled.div`
     @media ${(props) => props.theme.breakpoints.xl} {
         font-size: 2.5rem;
     }
+    @media ${(props) => props.theme.breakpoints.md} {
+        font-size: 1.5rem;
+    }
 `;
 
 export const Description = styled.div`
    font-size: 2rem;
     margin: 10px 40px;
     @media ${(props) => props.theme.breakpoints.xxl} {
+        font-size: 1.7rem;
+    }
+    @media ${(props) => props.theme.breakpoints.xlmaispastrop} {
+        font-size: 1.5rem;
+    }
+    @media ${(props) => props.theme.breakpoints.lg} {
         font-size: 1.3rem;
+    }
+    @media ${(props) => props.theme.breakpoints.md} {
+        font-size: 1.05rem;
+    }
+    @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: .9rem;
+        margin: 10px 20px;
+    }
+    @media ${(props) => props.theme.breakpoints.xs} {
+        font-size: .5rem;
     }
 `;

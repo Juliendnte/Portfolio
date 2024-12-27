@@ -19,6 +19,11 @@ export const IMG = styled.img`
         filter: none;
         mix-blend-mode: normal;
     }
+    
+    @media ${(props) => props.theme.breakpoints.xl } {
+        filter: none;
+        mix-blend-mode: normal;
+    }
 `
 
 export const H3 = styled.h3`
