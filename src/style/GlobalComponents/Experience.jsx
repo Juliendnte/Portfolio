@@ -46,25 +46,21 @@ export const TitleContent = styled.div`
 `;
 
 export const Description = styled.div`
-   font-size: 2rem;
+    font-size: 2rem;
     margin: 10px 40px;
-    @media ${(props) => props.theme.breakpoints.xxl} {
-        font-size: 1.7rem;
+    
+    @media ${(props) => props.theme.breakpoints.xl} {
+        font-size: 1.9rem;
     }
     @media ${(props) => props.theme.breakpoints.xlmaispastrop} {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
-    @media ${(props) => props.theme.breakpoints.lg} {
-        font-size: 1.3rem;
-    }
-    @media ${(props) => props.theme.breakpoints.md} {
-        font-size: 1.05rem;
-    }
+  
     @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: .9rem;
+        font-size: 1.3rem;
         margin: 10px 20px;
     }
     @media ${(props) => props.theme.breakpoints.xs} {
-        font-size: .5rem;
+        font-size: 1rem;
     }
 `;
