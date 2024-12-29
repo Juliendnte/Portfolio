@@ -306,7 +306,7 @@ Error generating stack: `+h.message+`
         I am currently interning at Vimtails, a company specializing in event applications. My responsibilities include developing the website's API, the gateway API, and implementing the payment feature.<br/>
         One of my primary focuses is on building robust authentication and article management systems for both members and administrators.<br/>
         Being part of the Vimtails team has been a great opportunity for growth, as I continue to learn new things every day while collaborating on impactful projects.
-      </div>`}],skills=[{title:"Frontend",description:[{name:"React",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"},{name:"Tailwind CSS",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"},{name:"HTML5",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"},{name:"CSS3",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"},{name:"JavaScript",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"},{name:"TypeScript",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"}]},{title:"Backend",description:[{name:"Node.js",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"},{name:"NestJS",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"},{name:"Go",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"},{name:"PHP",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"},{name:"Java",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"},{name:"C++",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg"},{name:"C#",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"},{name:"Python",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg"}]},{title:"Data & Tools",description:[{name:"MySQL",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"},{name:"PostgreSQL",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"},{name:"Pandas",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"},{name:"Jupyter",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"}]},{title:"DevOps & Others",description:[{name:"Docker",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"},{name:"Linux",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"},{name:"Git",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"},{name:"GitHub",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"},{name:"Postman",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-plain.svg"},{name:"JetBrains",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg"}]}],base_url="https://juliendnte.github.io/Portfolio",media=[{path:"/images/github.webp",link:"https://github.com/Juliendnte"},{path:"/images/linkedin.png",link:"https://www.linkedin.com/in/julien-dante-783537260/"},{path:"/images/instagram.png",link:"https://www.instagram.com/julien.dnte/"},{path:"/images/mail.png",link:"mailto:julien.dante@ynov.com"}],ButtonsExperience=dt.div`
+      </div>`}],skills=[{title:"Frontend",description:[{name:"React",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"},{name:"Tailwind CSS",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"},{name:"HTML5",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"},{name:"CSS3",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"},{name:"JavaScript",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"},{name:"TypeScript",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"}]},{title:"Backend",description:[{name:"Node.js",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"},{name:"NestJS",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"},{name:"Go",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"},{name:"PHP",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"},{name:"Java",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"},{name:"C++",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg"},{name:"C#",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"},{name:"Python",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg"}]},{title:"Data & Tools",description:[{name:"MySQL",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"},{name:"PostgreSQL",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"},{name:"Pandas",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"},{name:"Jupyter",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"}]},{title:"DevOps & Others",description:[{name:"Docker",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"},{name:"Linux",path:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"},{name:"Git",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"},{name:"GitHub",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"},{name:"Postman",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-plain.svg"},{name:"JetBrains",path:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg"}]}],base_url="https://juliendnte.github.io/Portfolio",media=[{path:"github",link:"https://github.com/Juliendnte"},{path:"linkedin",link:"https://www.linkedin.com/in/julien-dante-783537260/"},{path:"instagram",link:"https://www.instagram.com/julien.dnte/"},{path:"mail",link:"mailto:julien.dante@ynov.com"}],ButtonsExperience=dt.ul`
     background-color: ${e=>e.theme.colors.background1};
     display: flex;
     flex-direction: column;
@@ -317,10 +317,11 @@ Error generating stack: `+h.message+`
     padding: 20px 20px 50px;
     width: 5000px;
     height: 28rem;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);
     @media ${e=>e.theme.breakpoints.sm} {
         padding: 20px 0 50px;
     }
-`,ExperienceButton=dt.div`
+`,ExperienceButton=dt.li`
     min-width: ${e=>e.selected?"200px":"100%"};
     padding: ${e=>e.selected?"10px 20px 10px 20px":"10px 20px"};
     background-color: ${e=>e.selected?e.theme.colors.background2:e.theme.colors.background1};
@@ -329,6 +330,10 @@ Error generating stack: `+h.message+`
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     width: 110%;
+    
+    &:hover {
+        color: #382a79;
+    }
 `,TitleContent$1=dt.div`
     font-size: 3.5rem;
     margin: 10px 0 20px 40px;
@@ -407,30 +412,66 @@ Error generating stack: `+h.message+`
     width: 80%;
     max-width: 800px;
     flex-wrap: wrap;
-`,theme={fonts:{title:"Monument Extended, Open Sans, sans-serif",main:"Monument Extended, Open Sans, sans-serif",header:"PP Neue Montreal, sans-serif"},colors:{primary1:"hsl(204,23.8%,95.9%)",background1:"#0B0B0B",border:"linear-gradient(180deg, rgba(69,20,125,1) 0%, rgba(248,78,182,1) 50%, rgba(69,20,125,1) 100%);",borderLeft:"linear-gradient(90deg, rgba(69,20,125,1) 0%, rgba(248,78,182,1) 50%, rgba(69,20,125,1) 100%);",title:"linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%)",button:"hsl(205.1,100%,36.1%)",background2:"#18181B",link:"#18C5DD"},breakpoints:{xs:"screen and (max-width: 450px)",sm:"screen and (max-width: 640px)",md:"screen and (max-width: 768px)",lg:"screen and (max-width: 1024px)",xl:"screen and (max-width: 1280px)",xlmaispastrop:"screen and (max-width: 1430px)",xxl:"screen and (max-width: 1740px)"}},Technologies=()=>{const[e,a]=reactExports.useState(0),o=d=>{a(d)},c=skills[e];return jsxRuntimeExports.jsxs("div",{id:"Skills",className:"w-full pt-80 h-max",children:[jsxRuntimeExports.jsx(Title,{className:"inline-flex pb-10 ",children:jsxRuntimeExports.jsx("h2",{className:"text-7xl w-fit",children:"Skills"})}),jsxRuntimeExports.jsxs("div",{className:"flex flex-col items-center",children:[jsxRuntimeExports.jsx("div",{className:"flex mt-32",children:skills.map((d,h)=>jsxRuntimeExports.jsx("div",{className:"flex flex-col gap-10",children:jsxRuntimeExports.jsx(H3,{style:{backgroundColor:c.title===d.title?theme.colors.background2:theme.colors.background1},onClick:()=>o(h),children:d.title})},d.title))}),jsxRuntimeExports.jsx(ContainerImg,{className:"flex gap-10 mt-36 justify-center",children:c.description.map(d=>jsxRuntimeExports.jsx(ABBR,{className:"flex flex-col gap-10",children:jsxRuntimeExports.jsx(IMG,{src:d.path,alt:"skill "+d.name})},d.name))})]})]})},ContainerContact=dt.a`
-    font-size: 8rem;
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    margin: 300px;
-    border-left: 15px solid ${e=>e.theme.colors.background2};
-    border-right: 15px solid ${e=>e.theme.colors.background2};
-    
-    padding: 30px 90px;
-    border-radius: 100px;
-    transition: .3s;
+`,theme={fonts:{title:"Monument Extended, Open Sans, sans-serif",main:"Monument Extended, Open Sans, sans-serif",header:"PP Neue Montreal, sans-serif"},colors:{primary1:"hsl(204,23.8%,95.9%)",background1:"#0B0B0B",border:"linear-gradient(180deg, rgba(69,20,125,1) 0%, rgba(248,78,182,1) 50%, rgba(69,20,125,1) 100%);",borderLeft:"linear-gradient(90deg, rgba(69,20,125,1) 0%, rgba(248,78,182,1) 50%, rgba(69,20,125,1) 100%);",title:"linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%)",button:"hsl(205.1,100%,36.1%)",background2:"#18181B",link:"#18C5DD"},breakpoints:{xs:"screen and (max-width: 450px)",sm:"screen and (max-width: 640px)",md:"screen and (max-width: 768px)",lg:"screen and (max-width: 1024px)",xl:"screen and (max-width: 1280px)",xlmaispastrop:"screen and (max-width: 1430px)",xxl:"screen and (max-width: 1740px)"}},Technologies=()=>{const[e,a]=reactExports.useState(0),o=d=>{a(d)},c=skills[e];return jsxRuntimeExports.jsxs("div",{id:"Skills",className:"w-full pt-80 h-max",children:[jsxRuntimeExports.jsx(Title,{className:"inline-flex pb-10 ",children:jsxRuntimeExports.jsx("h2",{className:"text-7xl w-fit",children:"Skills"})}),jsxRuntimeExports.jsxs("div",{className:"flex flex-col items-center",children:[jsxRuntimeExports.jsx("div",{className:"flex mt-32",children:skills.map((d,h)=>jsxRuntimeExports.jsx("div",{className:"flex flex-col gap-10",children:jsxRuntimeExports.jsx(H3,{style:{backgroundColor:c.title===d.title?theme.colors.background2:theme.colors.background1},onClick:()=>o(h),children:d.title})},d.title))}),jsxRuntimeExports.jsx(ContainerImg,{className:"flex gap-10 mt-36 justify-center",children:c.description.map(d=>jsxRuntimeExports.jsx(ABBR,{className:"flex flex-col gap-10",children:jsxRuntimeExports.jsx(IMG,{src:d.path,alt:"skill "+d.name})},d.name))})]})]})},ContainerContact=dt.button`
+    margin: 300px 0;
+    position: relative;
+    overflow: hidden; 
 
-    &:hover {
-        background-color: ${e=>e.theme.colors.background2};
+    &:before,
+    &:after {
+        z-index: -1;
+        transition: all .7s ease-out;
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 12%;
+        top: 0;
+        border: 2px solid #FFFFFF66;
+        border-radius: 100px;
     }
-    
-    @media ${e=>e.theme.breakpoints.xxl} {
-        font-size: 6rem;
-    } 
-`,Contact=()=>jsxRuntimeExports.jsx(ContainerContact,{href:"mailto:julien.dante@ynov.com",id:"Contact",children:jsxRuntimeExports.jsx("p",{children:"Contact Me"})}),FooterContainer=dt.footer`
+
+    &:before {
+        right: 0;
+        border-left: 0;
+        border-radius: 0 100px 100px 0/0 100px 100px 0;
+    }
+
+    &:after {
+        left: 0;
+        border-right: 0;
+        border-radius: 100px 0 0 100px/100px 0 0 100px;
+    }
+
+    &:hover:before,
+    &:hover:after {
+        width: 50.002%; 
+        z-index: 1; 
+        transition: all .7s ease-in;
+    }
+`,ContactA=dt.a`
+    transform: none;
+    background-color: ${e=>e.theme.colors.background1};
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+`,Contact=()=>jsxRuntimeExports.jsx(ContainerContact,{className:"inline-grid items-center overflow-hidden hover:transition-all font-medium max-[980px]:px-[40px] px-[60px] min-[1112px]:h-[164px] min-[980px]:h-[140px] max-[980px]:h-[120px] max-[780px]:px-[28px] max-[780px]:h-[79px] rounded-[100px] border-2 border-transparent btnbo max-[406px]:text-[30px] min-[1112px]:text-[100px] min-[980px]:text-[90px] max-[980px]:text-[70px] max-[780px]:text-[36px] tracking-[-2px] ",id:"Contact",children:jsxRuntimeExports.jsx(ContactA,{href:"mailto:julien.dante@ynov.com",children:"Contact Me"})}),FooterContainer=dt.footer`
     border-top: 4px dotted ${e=>e.theme.colors.background2};
     width: 100%;
-`,height="45px",width="45px",Footer=()=>jsxRuntimeExports.jsxs(FooterContainer,{className:"absolute bottom-0 flex justify-around items-center pt-11 pb-11",children:[jsxRuntimeExports.jsxs("div",{className:"flex justify-between w-52",children:[jsxRuntimeExports.jsx("a",{href:media[0].link,target:"_blank",children:jsxRuntimeExports.jsx("img",{width,height,src:base_url+media[0].path,alt:media[0].link})}),jsxRuntimeExports.jsx("a",{href:media[1].link,target:"_blank",children:jsxRuntimeExports.jsx("img",{width,height,src:base_url+media[1].path,alt:media[1].link})})]}),jsxRuntimeExports.jsxs("div",{className:"flex items-center justify-center flex-col",children:[jsxRuntimeExports.jsx("p",{children:"© 2024 Julien. All rights reserved."}),jsxRuntimeExports.jsx("br",{}),jsxRuntimeExports.jsx("p",{children:"Designed and developed by Julien Dante"})]}),jsxRuntimeExports.jsxs("div",{className:"flex justify-between w-52",children:[jsxRuntimeExports.jsx("a",{href:media[2].link,target:"_blank",children:jsxRuntimeExports.jsx("img",{width,height,src:base_url+media[2].path,alt:media[2].link})}),jsxRuntimeExports.jsx("a",{href:media[3].link,target:"_blank",children:jsxRuntimeExports.jsx("img",{width,height,src:base_url+media[3].path,alt:media[3].link})})]})]}),Img=dt.img`
+`,FooterParagraph=dt.p`
+    border: 1px solid  ${e=>e.theme.colors.background2};
+    border-radius: 40px;
+    padding: 6px 13px;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);
+
+    &:hover {
+        border-color: #fff;
+    }
+`,Footer=()=>jsxRuntimeExports.jsxs(FooterContainer,{className:"absolute bottom-0 flex justify-around items-center pt-11 pb-11",children:[jsxRuntimeExports.jsxs("div",{className:"flex justify-between w-52 gap-6 ",children:[jsxRuntimeExports.jsx("a",{href:media[0].link,target:"_blank",children:jsxRuntimeExports.jsxs(FooterParagraph,{children:[" ",media[0].path]})}),jsxRuntimeExports.jsx("a",{href:media[1].link,target:"_blank",children:jsxRuntimeExports.jsxs(FooterParagraph,{children:[" ",media[1].path]})})]}),jsxRuntimeExports.jsxs("div",{className:"flex items-center justify-center flex-col",children:[jsxRuntimeExports.jsx("p",{children:"© 2024 Julien. All rights reserved."}),jsxRuntimeExports.jsx("br",{}),jsxRuntimeExports.jsx("p",{children:"Designed and developed by Julien Dante"})]}),jsxRuntimeExports.jsxs("div",{className:"flex justify-between w-52 gap-6",children:[jsxRuntimeExports.jsx("a",{href:media[2].link,target:"_blank",children:jsxRuntimeExports.jsxs(FooterParagraph,{className:"decoration-white ",children:[" ",media[2].path]})}),jsxRuntimeExports.jsx("a",{href:media[3].link,target:"_blank",children:jsxRuntimeExports.jsxs(FooterParagraph,{children:[" ",media[3].path]})})]})]}),Img=dt.img`
     width: 100%;
     height: 190px;
     object-fit: cover;
@@ -565,7 +606,6 @@ Error generating stack: `+h.message+`
     font-size: 1.6rem;
     background: ${e=>e.theme.colors.background1};
     color: ${e=>e.theme.colors.primary1};
-    cursor: default;
     position: relative;
   }
 
