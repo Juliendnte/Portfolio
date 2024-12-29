@@ -20,7 +20,6 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.6rem;
     background: ${props => props.theme.colors.background1};
     color: ${props => props.theme.colors.primary1};
-    cursor: default;
     position: relative;
   }
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ButtonsExperience = styled.div`
+export const ButtonsExperience = styled.ul`
     background-color: ${props => props.theme.colors.background1};
     display: flex;
     flex-direction: column;
@@ -13,12 +13,13 @@ export const Detail = styled.div`
     padding: 20px 20px 50px;
     width: 5000px;
     height: 28rem;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);
     @media ${(props) => props.theme.breakpoints.sm} {
         padding: 20px 0 50px;
     }
 `;
 
-export const ExperienceButton = styled.div`
+export const ExperienceButton = styled.li`
     min-width: ${(props) => (props.selected ? "200px" : "100%")};
     padding: ${(props) => (props.selected ? "10px 20px 10px 20px" : "10px 20px")};
     background-color: ${(props) => (props.selected ? props.theme.colors.background2 : props.theme.colors.background1)};
@@ -27,6 +28,10 @@ export const ExperienceButton = styled.div`
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     width: 110%;
+    
+    &:hover {
+        color: #382a79;
+    }
 `;
 
 export const TitleContent = styled.div`

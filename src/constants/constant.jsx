@@ -200,19 +200,19 @@ export const base_url = import.meta.env.VITE_BASE_URL && import.meta.env.VITE_BA
 
 export const media = [
     {
-        path: '/images/github.webp',
+        path: 'github',
         link: 'https://github.com/Juliendnte'
     },
     {
-        path: '/images/linkedin.png',
+        path: 'linkedin',
         link: 'https://www.linkedin.com/in/julien-dante-783537260/'
     },
     {
-        path: '/images/instagram.png',
+        path: 'instagram',
         link: 'https://www.instagram.com/julien.dnte/'
     },
     {
-        path: '/images/mail.png',
+        path: 'mail',
         link: 'mailto:julien.dante@ynov.com'
     }
 ]
