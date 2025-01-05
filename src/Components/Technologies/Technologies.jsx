@@ -20,10 +20,10 @@ const Technologies = () => {
                 <h2 className="text-7xl w-fit">Skills</h2>
             </Title>
             <div className="flex flex-col items-center">
-                <div className="flex mt-32">
+                <div className="flex mt-32 gap-10">
                     {skills.map((skill, index) => (
-                        <div key={skill.title} className="flex flex-col gap-10">
-                            <H3 style={{backgroundColor: selectedSkills.title === skill.title ? theme.colors.background2 :theme.colors.background1}}
+                        <div key={skill.title} className="flex flex-col">
+                            <H3 style={{backgroundColor: selectedSkills.title === skill.title ? theme.colors.background2 : theme.colors.background1}}
                                 onClick={() => handleSkillsClick(index)}>{skill.title}</H3>
                         </div>
                     ))}
