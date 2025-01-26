@@ -74,8 +74,10 @@ export function IconCloud({ iconSlugs }: DynamicCloudProps) {
   const renderedIcons = useMemo(() => {
     if (!data) return null;
 
+    const currentTheme = theme || 'dark';
+
     return Object.values(data.simpleIcons).map((icon: SimpleIcon) =>
-      renderCustomIcon(icon, theme || "dark"),
+      renderCustomIcon(icon, currentTheme),
     );
   }, [data, theme]);
 

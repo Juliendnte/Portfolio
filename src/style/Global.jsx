@@ -42,6 +42,12 @@ const GlobalStyles = createGlobalStyle`
     color: black !important;
     background: #e5e7eb none;
   }
+  
+  @media ${props => props.theme.breakpoints.xl} {
+    *{
+        cursor: auto;
+    }
+  }
 `;
 
 export default GlobalStyles;
