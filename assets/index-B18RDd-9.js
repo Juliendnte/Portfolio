@@ -581,4 +581,10 @@ Error generating stack: `+h.message+`
     color: black !important;
     background: #e5e7eb none;
   }
+  
+  @media ${e=>e.theme.breakpoints.xl} {
+    *{
+        cursor: auto;
+    }
+  }
 `,Theme=({children:e})=>jsxRuntimeExports.jsxs(ot,{theme,children:[jsxRuntimeExports.jsx(GlobalStyles,{}),e]});Theme.propTypes={children:PropTypes.node.isRequired};function App(){return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment,{children:jsxRuntimeExports.jsx(Theme,{children:jsxRuntimeExports.jsx(Layout,{})})})}createRoot(document.getElementById("root")).render(jsxRuntimeExports.jsx(App,{}));
