@@ -14,7 +14,7 @@ export const ContainerContact = styled.button`
         height: 100%;
         width: 12%;
         top: 0;
-        border: 2px solid ${props => props.theme.colors.background2};
+        border: 2px solid oklch(69.71% 0.329 342.55 / 1);
     }
 
     &:before {

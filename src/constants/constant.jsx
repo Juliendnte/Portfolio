@@ -98,10 +98,6 @@ export const skills = [
                 name: 'JavaScript',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
             },
-            {
-                name: 'TypeScript',
-                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg',
-            },
         ],
     },
     {
@@ -132,6 +128,10 @@ export const skills = [
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg',
             },
             {
+                name: 'TypeScript',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg',
+            },
+            {
                 name: 'C#',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg',
             },
@@ -159,7 +159,7 @@ export const skills = [
             {
                 name: 'Jupyter',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg',
-            },
+            }
         ],
     },
     {
@@ -176,10 +176,6 @@ export const skills = [
             {
                 name: 'Git',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg',
-            },
-            {
-                name: 'GitHub',
-                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
             },
             {
                 name: 'Postman',
