@@ -17,7 +17,7 @@ const Technologies = () => {
     return (
         <div id="Skills" className="w-full pt-80 h-max">
             <Title className="inline-flex pb-10 ">
-                <h2 className="text-7xl w-fit">Skills</h2>
+                <h2 className="text-7xl w-fit">Compétences</h2>
             </Title>
             <div className="flex flex-col items-center">
                 <div className="flex mt-32 gap-10">

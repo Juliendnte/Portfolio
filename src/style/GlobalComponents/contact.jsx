@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
-export const ContainerContact = styled.button`
+export const ContainerContact = styled.a`
     margin: 300px 0;
     position: relative;
     overflow: hidden;
+    cursor: none;
 
     &:before,
     &:after {
@@ -37,7 +38,7 @@ export const ContainerContact = styled.button`
     }
 `;
 
-export const ContactA = styled.a`
+export const ContactA = styled.div`
     transform: none;
     background-color: ${(props) => props.theme.colors.background1};
     height: 100%;

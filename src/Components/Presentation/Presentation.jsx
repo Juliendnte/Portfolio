@@ -14,9 +14,8 @@ const Presentation = () => (
                     </svg>
                 </SectionTitle>
                 <SectionText>
-                    I&#39;m Dante Julien a backend developer from Aix-en-Provence in France. But I&#39;m also a life guard, a student, and a sportif.<br/>
-                    I&#39;m someone in love with programing and technology. I&#39;m always looking for new challenges and new things to learn.<br/>
-                    Right now I&#39;m looking for a apprenticeship in the field of backend development or data engineering
+                    Je suis Dante Julien un développeur de Marseille. Mais je suis aussi un nageur sauveteur, un étudiant, et un sportif.<br/>
+                    Je suis quelqu&#39;un amoureux de la programmation et de la technologie. Je suis toujours entrain de chercher de nouveau challenge et des nouvelles choses à apprendre.<br/>
                 </SectionText>
             </LeftSection>
         </Section>

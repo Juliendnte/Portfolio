@@ -21,7 +21,7 @@ const Experience = () => {
     return (
         <div id='Experience' className="w-full pt-80 h-max ">
             <Title className="inline-flex pb-10 ">
-                <h2 className="text-7xl w-fit">Experience</h2>
+                <h2 className="text-7xl w-fit">Expérience</h2>
             </Title>
             <Section flex row noPadding className="w-full mt-24 items-center">
                 <ButtonsExperience className="flex flex-col gap-10 ">

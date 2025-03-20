@@ -8,11 +8,11 @@ const Header = () => (
             <h1 className="font-medium leading-[9.52px] uppercase"><a href="/Portfolio">Julien dante</a></h1>
             <nav>
                 <Ul className="text-white flex p-4 gap-1.5 bg-hash rounded-[100px] text-xl uppercase w-max mx-auto tracking-[-2%] leading-[9.52px] items-center">
-                    <li className="backdrop: px-3 py-2"><a className="cursor-none" href="#Experience">Experience</a>
+                    <li className="backdrop: px-3 py-2"><a className="cursor-none" href="#Experience">Expériences</a>
                     </li>
-                    <li className="backdrop: px-3 py-2"><a className="cursor-none" href="#Skills">Skills</a>
+                    <li className="backdrop: px-3 py-2"><a className="cursor-none" href="#Skills">Compétences</a>
                     </li>
-                    <li className=" px-3 py-2"><a className="cursor-none" href="#Projects">Projects</a></li>
+                    <li className=" px-3 py-2"><a className="cursor-none" href="#Projects">Projets</a></li>
                     <li className="px-3 py-2"><a className="cursor-none" href="#Contact">Contact</a></li>
                 </Ul>
             </nav>

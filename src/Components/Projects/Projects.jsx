@@ -6,7 +6,7 @@ import {Title} from "../../style/GlobalComponents/Main.jsx";
 
 const Projects = () => (<div id="Projects" className="w-full pt-80 h-max flex justify-center relative mt-44">
     <Title absolute className="inline-flex">
-        <h2 className="text-7xl w-fit mt-36">Projects</h2>
+        <h2 className="text-7xl w-fit mt-36">Projets</h2>
     </Title>
     <GridContainer>
         {projects.map((p, i) => {
