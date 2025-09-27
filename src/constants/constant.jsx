@@ -27,28 +27,26 @@ export const projects = [{
     tags: ['Go', 'API'],
     source: 'https://github.com/Juliendnte/Livrables_projet_groupie_tracker.git',
     id: 3,
-},];
+},{
+    title: 'ML Prediction Energy',
+    description: 'Un model de ML pour faire de la prédiction de demande énergétique électrique en Occitanie',
+    image: '/Portfolio/images/ia_prediction_energy.png',
+    tags: ['ML', 'Pandas'],
+    source: 'https://huggingface.co/spaces/Juliendnte/Prediction_Energy_Electric/tree/main',
+    website: 'https://huggingface.co/spaces/Juliendnte/Prediction_Energy_Electric',
+    id: 4
+}];
 
 export const experience = [
-    {
-        title: "Lycée",
-        date: "2020-2023",
-        description: `
-      <div>
-     J'ai étudié à St Joseph de la Madeleine à Marseille, où j'ai obtenu mon Baccalauréat Européen en 2023.<br/>
-     Pendant ce temps, j'ai développé une forte passion pour l'informatique et les mathématiques, qui m'a permis d'acquir de bonnes notions en programmation.<br/>
-      J'ai aussi eu de l'expérience sur quelques langages de programmation (Python, HTML, CSS, et SQL).
-      </div>`,
-    },
     {
         title: "Ynov",
         date: "2023-2028",
         description: `
       <div>
-      Je suis actuellement à Aix Ynov Campus, où je me focalise sur le développement back-end et la data science.<br>
+        Je suis actuellement à Aix Ynov Campus en 3ème année, où je me focalise sur le développement back-end, la data science et l'intelligence artificielle.<br>
         J'ai pu travailler sur différents projets qui m'ont aidé à améliorer mes compétences de programmation et comprendre l'application de l'informatique dans la vie courante.<br>
         J'ai appris beaucoup sur le développement d'infrastructure d'API (en ExpressJs, NestJs, PhP), mais aussi dans la programmation de modèle de machine learning.<br>
-        Et tous les jours, je continue de découvrir de nouveau outils qui me font grandir en tant que développeur et étudiant.
+        Et tous les jours, je continue de découvrir de nouveaux outils qui me font grandir en tant que développeur et étudiant.
       </div>`,
     },
     {
@@ -57,9 +55,8 @@ export const experience = [
         description: `
       <div>
      J'ai été nageur sauveteur à Marseille avec le Grand Bleu, où j'étais responsable de la sécurité d'enfants dans des piscines ou alors à la plage.<br>
-    Ce rôle, que je fais pendants quelques étés pour avoir de l'argent, m'a appris la responsabilité, la discipline, et le travaille en équipe.<br>
-    Cette expérience m'a aidé à grandir en maturité et m'a donné une compréhension claire de la signification d'avoir un travaille à responsabilité.
-
+    Ce rôle, que j'ai fait en période saisonnière m'a appris la responsabilité, la discipline, et le travail en équipe.<br>
+    Cette expérience m'a aidé à grandir en maturité et m'a donné une compréhension claire de la signification d'avoir un travail à responsabilité.
       </div>`,
     },
     {
@@ -67,11 +64,31 @@ export const experience = [
         date: "2024-2025",
         description: `
       <div>
-     J'ai fait mon stage chez Vimtails, une start-up dans l'événementiel. Mes taches ont été de développer deux API, une pour le site WEB contenant tout le système des articles, et l'autre du système d'abonnement.<br>
-Ma principale mission était l'API WEB dans la gestion d'articles, tags, des vues, de l'administration…<br>
-Être partie de la team Vimtails a été une bonne expérience pour mon développement, vu qu'il a été mon premier vrai projet lucratif que j'ai réalisé.
-
+     J'ai fait mon stage chez Vimtails, une start-up dans l'événementiel. Mes tâches ont été de développer deux API en NestJS, une pour le site WEB contenant tout le système des articles, et l'autre du système d'abonnement.<br>
+     Ma principale mission était l'API WEB dans la gestion d'articles, tags, des vues, de l'administration…<br>
+     Être partie de l'équipe Vimtails a été une bonne expérience pour mon développement, vu qu'il a été ma première expérience dans le monde de l'informatique.
       </div>`,
+    },
+    {
+        title: "GendSkills",
+        date: "2025",
+        description: `
+      <div>
+        J'ai aussi effectué un stage à la Gendarmerie. Dans ce stage, nous devions réaliser un site web en VueJS, et une API REST en Symfony avec une équipe d'étudiant.<br>
+        L'API était dans le cadre de la gestion des réservistes faites par les gendarmes. Dans cette équipe j'ai effectué la base de donnée et travaillé dans le développement de l'API<br>
+        Ce que j'ai le plus apprécié dans ce stage est que mes missions étaient concrètes.<br>
+        Elle m'a aussi appris la gestion d'équipe et de projet dans une période d'un mois.
+      </div>`,
+    },
+    {
+        title: "France Travail",
+        date: "2025-2026",
+        description: `
+      <div>
+        Je suis en ce moment alternant à France Travail en tant que Data Analyst.<br>
+        Dans le cadre de mes missions, j'ai dû apprendre Power BI Desktop, Power Automate, plusieurs outils de la suite Office dans le cadre du traitement de données. <br>
+        Cette alternance est importante pour moi, car elle me sollicite dans des missions impactantes pour l'optimisation et le gain de temps de plusieurs équipes. <br>
+Ma principale tâche a été d'optimiser les processus de plusieurs équipes en apportant une perspective nouvelle et des solutions innovantes.      </div>`,
     },
 ];
 
@@ -84,8 +101,8 @@ export const skills = [
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg',
             },
             {
-                name: 'PHP',
-                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg',
+                name: 'Symfony',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg',
             },
             {
                 name: 'Python',
@@ -94,15 +111,15 @@ export const skills = [
         ],
     },
     {
-        title: 'Data & Tools',
+        title: 'Data & IA',
         description: [
             {
                 name: 'MySQL',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg',
             },
             {
-                name: 'PostgreSQL',
-                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg',
+                name: 'Power BI',
+                path: '/Portfolio/images/powerbi.png'
             },
             {
                 name: 'Pandas',
@@ -111,11 +128,15 @@ export const skills = [
             {
                 name: 'Jupyter',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg',
+            },
+            {
+                name: 'Tensorflow',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg'
             }
         ],
     },
     {
-        title: 'DevOps & Others',
+        title: 'DevOps & Autre',
         description: [
             {
                 name: 'Docker',
@@ -137,10 +158,6 @@ export const skills = [
     },
 ];
 
-export const base_url = import.meta.env.VITE_BASE_URL && import.meta.env.VITE_BASE_URL.trim() !== ''
-    ? import.meta.env.VITE_BASE_URL
-    : 'https://juliendnte.github.io/Portfolio';
-
 export const media = [
     {
         path: 'github',
@@ -155,7 +172,7 @@ export const media = [
         link: 'https://www.instagram.com/julien.dnte/'
     },
     {
-        path: 'mail',
-        link: 'mailto:julien.dante@ynov.com'
+        path: 'hugging',
+        link: 'https://huggingface.co/Juliendnte'
     }
 ]

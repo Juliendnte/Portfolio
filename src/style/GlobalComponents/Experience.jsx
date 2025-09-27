@@ -11,8 +11,8 @@ export const Detail = styled.div`
     background-color: ${props => props.theme.colors.background2};
     border-radius: 10px;
     padding: 20px 20px 50px;
-    width: 5000px;
-    height: 28rem;
+    width: 100%;
+    height: 35rem;
     box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);
     @media ${(props) => props.theme.breakpoints.sm} {
         padding: 20px 0 50px;

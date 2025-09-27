@@ -1,8 +1,5 @@
 import {FooterContainer, FooterParagraph} from "../../style/GlobalComponents/Footer.jsx";
-import {base_url, media} from "../../constants/constant.jsx";
-
-const height = '45px'
-const width = '45px'
+import {media} from "../../constants/constant.jsx";
 
 const Footer = () => (
     <FooterContainer className='absolute bottom-0 flex justify-around items-center pt-11 pb-11'>
