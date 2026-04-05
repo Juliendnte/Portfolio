@@ -28,13 +28,20 @@ export const projects = [{
     source: 'https://github.com/Juliendnte/Livrables_projet_groupie_tracker.git',
     id: 3,
 },{
+    title: 'Vimchess',
+    description: "Un jeu d'échec en WebSocket",
+    image: '/Portfolio/images/vimchess.png',
+    tags: ['NestJS', 'Prisma', 'WebSocket'],
+    source: 'https://github.com/orgs/ProjetDevUF/repositories',
+    id: 4
+},{
     title: 'ML Prediction Energy',
     description: 'Un model de ML pour faire de la prédiction de demande énergétique électrique en Occitanie',
     image: '/Portfolio/images/ia_prediction_energy.png',
     tags: ['ML', 'Pandas'],
     source: 'https://huggingface.co/spaces/Juliendnte/Prediction_Energy_Electric/tree/main',
     website: 'https://huggingface.co/spaces/Juliendnte/Prediction_Energy_Electric',
-    id: 4
+    id: 5
 }];
 
 export const experience = [
@@ -86,9 +93,10 @@ export const experience = [
         description: `
       <div>
         Je suis en ce moment alternant à France Travail en tant que Data Analyst.<br>
-        Dans le cadre de mes missions, j'ai dû apprendre Power BI Desktop, Power Automate, plusieurs outils de la suite Office dans le cadre du traitement de données. <br>
+        Dans le cadre de mes missions, j'ai dû apprendre à utiliser Power BI, Power Automate, Excel, Power Apps et d'autres outils de la suite Office. <br>
         Cette alternance est importante pour moi, car elle me sollicite dans des missions impactantes pour l'optimisation et le gain de temps de plusieurs équipes. <br>
-Ma principale tâche a été d'optimiser les processus de plusieurs équipes en apportant une perspective nouvelle et des solutions innovantes.      </div>`,
+        Ma principale tâche a été d'optimiser les processus de plusieurs équipes RH en apportant une perspective nouvelle et des solutions innovantes.<br>
+        J'ai aussi du analyser des jeux de données majoritairement RH et du effectué sur certains de mes projets des prédictons (Régresson Linéaire)</div>`,
     },
 ];
 
@@ -108,6 +116,10 @@ export const skills = [
                 name: 'Python',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg',
             },
+            {
+                name: 'Rust',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg'
+            }
         ],
     },
     {
@@ -136,7 +148,7 @@ export const skills = [
         ],
     },
     {
-        title: 'DevOps & Autre',
+        title: 'Outils',
         description: [
             {
                 name: 'Docker',
@@ -154,6 +166,14 @@ export const skills = [
                 name: 'JetBrains',
                 path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg',
             },
+            {
+                name: 'Jupyter',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg'
+            },
+            {
+                name: 'Excel',
+                path: 'https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/excel-auto.svg'
+            }
         ],
     },
 ];
